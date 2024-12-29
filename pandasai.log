@@ -1,0 +1,23 @@
+2024-12-25 20:42:10 [INFO] Question: top 3 people who are making the highest progress
+2024-12-25 20:42:11 [INFO] Running PandasAI with bamboo_llm LLM...
+2024-12-25 20:42:11 [INFO] Prompt ID: 5a04f616-4273-4281-850b-3bb20dc27f10
+2024-12-25 20:42:11 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-12-25 20:42:11 [INFO] Executing Step 0: ValidatePipelineInput
+2024-12-25 20:42:11 [INFO] Executing Step 1: CacheLookup
+2024-12-25 20:42:11 [INFO] Executing Step 2: PromptGeneration
+2024-12-25 20:42:12 [INFO] Querying without using training data.
+2024-12-25 20:42:13 [INFO] Querying without using training docs.
+2024-12-25 20:42:13 [INFO] Executing Step 3: CodeGenerator
+2024-12-25 20:42:16 [INFO] Prompt used:
+            None
+            
+2024-12-25 20:42:16 [INFO] Executing Step 4: CachePopulation
+2024-12-25 20:42:16 [INFO] Executing Step 5: CodeCleaning
+2024-12-25 20:42:16 [INFO] Executing Step 6: CodeExecution
+2024-12-25 20:42:16 [INFO] Executing Step 7: ResultValidation
+2024-12-25 20:42:16 [INFO] Answer: {'type': 'string', 'value': 'The top 3 people making the highest progress are: Alice, Bob, Bob, Charlie, Charlie, Eve.'}
+2024-12-25 20:42:16 [INFO] Executing Step 8: ResultParsing
+2024-12-25 20:42:54 [INFO] Pandas backend loaded 1.5.3
+2024-12-25 20:42:54 [INFO] Numpy backend loaded 1.24.4
+2024-12-25 20:42:54 [INFO] Pyspark backend NOT loaded
+2024-12-25 20:42:54 [INFO] Python backend loaded
